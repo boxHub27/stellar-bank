@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  @apply rounded-full;
+  @apply text-sm;
+  @apply font-normal;
+  @apply px-12 py-2;
+  @apply normal-case;
+}
+
+.heror-img {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 20%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("./../../public/images/heror.jpg");
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+
+.newsLetter-img {
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 20%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url("./../../public/images/newsLetter.jpg");
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
